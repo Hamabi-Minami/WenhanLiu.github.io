@@ -6,6 +6,9 @@
 
  */
 
+// github link:
+// https://hamabi-minami.github.io/lab6/
+
 /****************** create variables ******************/
 /* create variables to hold the values for modelName and duration */
 
