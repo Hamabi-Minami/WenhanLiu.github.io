@@ -49,7 +49,7 @@ function recalculate() {
 
 /****************** model button logic ******************/
 
-/* 
+/*
 - first, create a variable to represent the "Switch Model" pseudo-button (hint: can use getElementById)
 - second, create a function called changeModel() which checks the value of the model name variable. This function will:
     - create a variable to represent the model-text span element
@@ -57,14 +57,13 @@ function recalculate() {
     - if modelName is currently "CPRG", change the value of modelName to "XYZ", and change the innerHTML of the model-text span element to "Model XYZ"
     - then, recalculate() the total cost.
 - finally, uncomment the following line of JavaScript to have this function run automatically whenever the pseudo-button is clicked: */
-// modelButton.addEventListener("click", changeModel);
 
 
 // checks the value of the model name variable
 function changeModel() {
 
     // Get the switch button
-    let switch_model = document.getElementById("model-text")
+    let switch_model = document.getElementById("model-text");
 
     modelName = switch_model.innerHTML;
 
@@ -121,7 +120,3 @@ function changeDuration() {
         alert("Invalid input. Please enter a valid number.");
     }
 }
-
-
-
-
